@@ -9,3 +9,8 @@ p {
   font-family: 'Karla', sans-serif;
   font-weight: 400;
 }
+
+.dl-container {
+  text-align: center;
+  padding: 40px;
+}
