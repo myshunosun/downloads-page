@@ -15,7 +15,13 @@ p {
 }
 
 .dl-intro {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
+}
+
+.dl-card {
+  color: black;
+  background-color: #333;
+  border-color: #333;
 }
 
 .navbar-links ul li {
