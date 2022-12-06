@@ -19,9 +19,15 @@ p {
 }
 
 .dl-card {
-  color: black;
+  color: white;
   background-color: #333;
   border-color: #333;
+}
+
+.tou-card {
+  color: white;
+  background-color: #333;
+  border-color: #343434;
 }
 
 .navbar-links ul li {
