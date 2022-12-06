@@ -14,7 +14,7 @@ p {
   padding: 40px;
 }
 
-.navbar-links {
+.navbar-links ul li {
   display: inline;
 }
 
