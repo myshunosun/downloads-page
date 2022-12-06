@@ -13,3 +13,7 @@ p {
 .dl-container {
   padding: 40px;
 }
+
+.hidden {
+  display: none;
+}
