@@ -10,7 +10,8 @@ p {
   font-weight: 400;
 }
 
-.dl-container {
+.container-main {
+  padding-top: 40px;
 }
 
 .navbar-links ul li {
