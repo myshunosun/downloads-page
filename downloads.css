@@ -21,6 +21,7 @@ p {
 .dl-card {
   color: white;
   background-color: #333;
+  border-width: 1px;
   border-color: #333;
 }
 
