@@ -20,6 +20,7 @@ p {
 
 .dl-card {
   margin-top: 40px;
+  padding: 0;
   color: white;
   background-color: #1E2024;
   border-style: solid;
