@@ -46,60 +46,56 @@
       </div>
     </div>
 
-    <div>
-      <div id="contentA">
-        ** Content A ***
-      </div>
-      <div id="contentB">
-        ** Content B ***
-      </div>
-      <div id="contentC">
-        ** Content C ***
-      </div>
+    <div class="container dl-filters">
+      <ul class="filter option-set exclusive" data-filter-group="group1">
+        <li><a href="#" data-filter-value="" class="selected">All</a></li>
+        <li><a href="#" data-filter-value=".g1f1">Filter 1</a></li>
+        <li><a href="#" data-filter-value=".g1f2">Filter 2</a></li>
+      </ul>
+      <ul class="filter option-set" data-filter-group="group2">
+        <li><a href="#" data-filter-value="" class="selected">All</a></li>
+        <li><a href="#" data-filter-value=".g2f1">Filter 1</a></li>
+        <li><a href="#" data-filter-value=".g2f2">Filter 2</a></li>
+      </ul>
     </div>
 
     <div class="container dl-container">
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card dl-card">
+      <div class="row row-cols-1 row-cols-md-2 g-4 dl-parent-container">
+          <div class="col item card dl-card g1f1 g1f2 g2f1">
             <img src="https://c10.patreonusercontent.com/4/patreon-media/p/post/75306115/28d7d993bfc84084b2e8b6c3229734a6/eyJ3Ijo2MjB9/1.png?token-time=1671580800&token-hash=9owZjHkZDpApGhjDpey3528HCU8L-N0D44E5yM3Ywqk%3D" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card dl-card">
+          <div class="col item card dl-card g1f1">
             <img src="https://c10.patreonusercontent.com/4/patreon-media/p/post/75306115/28d7d993bfc84084b2e8b6c3229734a6/eyJ3Ijo2MjB9/1.png?token-time=1671580800&token-hash=9owZjHkZDpApGhjDpey3528HCU8L-N0D44E5yM3Ywqk%3D" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card dl-card">
+          <div class="col item card dl-card g2f1">
             <img src="https://c10.patreonusercontent.com/4/patreon-media/p/post/75306115/28d7d993bfc84084b2e8b6c3229734a6/eyJ3Ijo2MjB9/1.png?token-time=1671580800&token-hash=9owZjHkZDpApGhjDpey3528HCU8L-N0D44E5yM3Ywqk%3D" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <div class="card dl-card">
+          <div class="col item card dl-card g1f1 g1f2 g2f1">
             <img src="https://c10.patreonusercontent.com/4/patreon-media/p/post/75306115/28d7d993bfc84084b2e8b6c3229734a6/eyJ3Ijo2MjB9/1.png?token-time=1671580800&token-hash=9owZjHkZDpApGhjDpey3528HCU8L-N0D44E5yM3Ywqk%3D" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
           </div>
-        </div>
       </div>
     </div>
   </div>
 
   <script src="/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://static.tumblr.com/p0knose/FpAp5c11c/magnusthemes.combofilters.js"></script>
 </body>
 </html>
