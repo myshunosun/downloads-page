@@ -1,9 +1,19 @@
-function filterDownloads(e) {
-  const downloads = document.querySelectorAll(".dl-container div"); // select all downloads
-  let filter = e.target.dataset.filter; // grab the value in the event target's data-filter attribute
-  animals.forEach(animal => {
-    animal.classList.contains(filter) // does the animal have the filter in its class list?
-    ? animal.classList.remove('hidden') // if yes, make sure .hidden is not applied
-    : animal.classList.add('hidden'); // if no, apply .hidden
-  });
-};
+function filterContent() {
+	var user = document.getElementById("myDropdown").value;
+	var contentA = document.getElementById("contentA");
+	var contentB = document.getElementById("contentB");
+	var contentC = document.getElementById("contentC");
+    if(user=="A") {
+		contentA.style.display="block";
+		contentB.style.display="block";
+		contentC.style.display="block";
+	} else if (user=="B") {
+		contentA.style.display="none";
+		contentB.style.display="block";
+		contentC.style.display="block";
+	} else if (user=="C") {
+		contentA.style.display="none";
+		contentB.style.display="none";
+		contentC.style.display="block";
+	}
+}
