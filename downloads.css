@@ -1,5 +1,5 @@
 body {
-  background-color: #131313;
+  background-color: #141518;
   font-family: 'Karla', sans-serif;
   color: white;
 }
@@ -20,15 +20,18 @@ p {
 
 .dl-card {
   color: white;
-  background-color: #333;
-  border-width: 1px;
-  border-color: #333;
+  background-color: #1E2024;
+  border-style: 1px solid #34373A;
 }
 
 .tou-card {
   color: white;
-  background-color: #333;
-  border-color: #343434;
+  background-color: #1E2024;
+  border-style: 1px solid #34373A;
+}
+
+.myshunosun-link {
+  font-size: 16px;
 }
 
 .navbar-links ul li {
