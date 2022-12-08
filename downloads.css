@@ -33,7 +33,11 @@ p {
   border-width: 1px;
   border-color: #34373A;
 }
-nav a {
+nav {
+  color: white;
+}
+
+a {
   color: white;
 }
 
