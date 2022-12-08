@@ -46,7 +46,7 @@ a {
 }
 
 .navbar-links ul li {
-  display: inline;
+  display: inline-block;
 }
 
 .hidden {
