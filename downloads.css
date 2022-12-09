@@ -37,8 +37,14 @@ p {
   padding-top: 40px;
 }
 
+.navbar-nav {
+  float: right;
+}
+
 a {
   color: white;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 
 .myshunosun-link {
@@ -50,6 +56,10 @@ a {
   padding-left: 0px;
 }
 
+.dl-filters {
+  padding-left: none;
+}
+
 .dl-filters ul li {
   display: inline-block;
   list-style: none;
@@ -58,7 +68,7 @@ a {
 }
 
 .dl-filters a {
-  padding: 16px;
+  padding: 8px 16px 8px 16px;
   border-radius: 8px;
   transition-duration: 0.2s;
   transition-timing-function: linear;
@@ -82,6 +92,8 @@ a {
 
 a:hover {
   color:pink;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 
 .hidden {
