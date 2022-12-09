@@ -46,16 +46,18 @@ a {
   font-family: 'Pirata One', cursive;
 }
 
-.dl-filters {
+.dl-filters ul li {
   display: inline-block;
+  list-style: none;
 }
 
 .filter-chip {
   padding: 16px;
 }
 
-.filter-chip .selected {
+.selected {
   background-color: #34373A;
+  border-radius: 8px;
 }
 
 .filter-chip:hover {
@@ -63,11 +65,11 @@ a {
 }
 
 .navbar-links {
-  float: right;
+  display: inline-block;
 }
 
 .nav-link {
-  display: inline-block;
+  float: right;
 }
 
 .hidden {
