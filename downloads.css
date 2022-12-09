@@ -46,9 +46,15 @@ a {
   font-family: 'Pirata One', cursive;
 }
 
+.filters {
+  padding-left: 0px;
+}
+
 .dl-filters ul li {
   display: inline-block;
   list-style: none;
+  margin-left: 16px;
+  margin-bottom: 16px;;
 }
 
 .dl-filters a {
