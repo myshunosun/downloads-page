@@ -46,8 +46,24 @@ a {
   font-family: 'Pirata One', cursive;
 }
 
-.navbar-links {
+.dl-filters {
   display: inline-block;
+}
+
+.filter-chip {
+  padding: 16px;
+}
+
+.filter-chip .selected {
+  background-color: #34373A;
+}
+
+.filter-chip:hover {
+  background-color: #4e5358;
+}
+
+.navbar-links {
+  float: right;
 }
 
 .nav-link {
