@@ -77,10 +77,11 @@ a {
 
 .navbar-links {
   display: inline-block;
+  text-align: left;
 }
 
-.nav-link {
-  float: right;
+a:hover {
+  color:pink;
 }
 
 .hidden {
