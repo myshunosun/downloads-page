@@ -57,6 +57,10 @@ a {
   padding-left: 0px;
 }
 
+.filter-label {
+  margin-bottom: 16px;
+}
+
 .dl-filters {
   padding-left: none;
 }
