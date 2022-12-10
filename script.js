@@ -29,4 +29,4 @@ $(document).ready(function() {
   });
  });
 
- $('#toumodal').modal(options)
+ $('#toumodal').modal('show')
