@@ -105,3 +105,8 @@ h3 {
   font-size: 20px;
   line-height: 32px;
 }
+
+.container {
+  padding-left: 80px;
+  padding-right: 80px;
+}
