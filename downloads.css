@@ -49,6 +49,10 @@ a {
   font-family: 'Pirata One', cursive;
 }
 
+.new-nav-link {
+  margin-right: 16px;
+}
+
 .filter {
   padding-left: 0px;
 }
@@ -87,7 +91,10 @@ a {
   color: pink;
 }
 
-
+.navbar-links {
+  display: inline-block;
+  text-align: left;
+}
 
 a:hover {
   color:pink;
