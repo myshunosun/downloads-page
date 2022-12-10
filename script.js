@@ -28,5 +28,3 @@ $(document).ready(function() {
     e.preventDefault();
   });
  });
-
- $('#toumodal').modal('show')
