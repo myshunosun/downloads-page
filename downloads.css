@@ -59,7 +59,7 @@ a {
 .dl-filters ul li {
   display: inline-block;
   list-style: none;
-  margin-left: 16px;
+  margin-right: 16px;
   margin-bottom: 32px;
 }
 
@@ -68,10 +68,15 @@ a {
   border-radius: 8px;
   transition-duration: 0.2s;
   transition-timing-function: linear;
+  text-decoration: none;
 }
 
 .selected {
   background-color: #1E2024;
+  text-decoration: underline;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #34373A;
 }
 
 .dl-filters a:hover {
@@ -104,9 +109,4 @@ h2 {
 h3 {
   font-size: 20px;
   line-height: 32px;
-}
-
-.container {
-  padding-left: 80px;
-  padding-right: 80px;
 }
