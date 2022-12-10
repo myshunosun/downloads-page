@@ -87,10 +87,7 @@ a {
   color: pink;
 }
 
-.navbar-links {
-  display: inline-block;
-  text-align: left;
-}
+
 
 a:hover {
   color:pink;
