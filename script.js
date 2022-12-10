@@ -29,9 +29,6 @@ $(document).ready(function() {
   });
  });
 
-const myModal = document.getElementById('touModal')
-const myInput = document.getElementById('myInput')
-
-myModal.addEventListener('shown.bs.modal', () => {
-  myInput.focus()
-})
+ $(document).ready(function() {
+  $("#touModal").modal("show");
+});
