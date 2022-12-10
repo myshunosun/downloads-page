@@ -73,7 +73,7 @@ a {
 
 .selected {
   background-color: #1E2024;
-  text-decoration: underline;
+  text-decoration: underline white;
   border-style: solid;
   border-width: 1px;
   border-color: #34373A;
