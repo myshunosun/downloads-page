@@ -33,6 +33,11 @@ p {
   border-width: 1px;
   border-color: #34373A;
   padding: 24px;
+  border-radius: 8px;
+}
+
+.tou-card p {
+  margin-bottom: 8px;
 }
 
 .nav-container {
