@@ -32,8 +32,10 @@ p {
   border-style: solid;
   border-width: 1px;
   border-color: #34373A;
-  display: inline-block;
+  display: inline;
+  padding: 40px;
 }
+
 .nav-container {
   padding-top: 40px;
 }
