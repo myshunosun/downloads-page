@@ -120,10 +120,9 @@ h3 {
   line-height: 32px;
 }
 
-.modal-dialog {
+.modal-content {
   background-color: #1E2024;
   border-style: solid;
   border-width: 1px;
   border-color: #34373A;
-
 }
