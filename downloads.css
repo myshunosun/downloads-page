@@ -119,3 +119,11 @@ h3 {
   font-size: 20px;
   line-height: 32px;
 }
+
+.modal {
+  background-color: #1E2024;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #34373A;
+
+}
