@@ -146,4 +146,8 @@ h3 {
 
 .footer-list {
   list-style: none;
+  display: inline-block;
+  list-style: none;
+  margin-right: 16px;
+  margin-bottom: 32px;
 }
