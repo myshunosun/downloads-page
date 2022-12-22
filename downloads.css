@@ -15,8 +15,7 @@ p {
 }
 
 .linkcontainer {
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 40px 12px 40px 12px;
 }
 
 .dl-intro {
