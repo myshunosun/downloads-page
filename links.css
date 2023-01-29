@@ -4,5 +4,21 @@
     border-style: solid;
     border-width: 1px;
     border-color: #34373A;
+    background-color: #1E2024;
+    text-align: center;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .social-link:hover {
+    background-color: #34373A;
+    text-align: center;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .link-container {
+    padding: 48px;
   }
   
