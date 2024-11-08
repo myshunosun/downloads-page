@@ -1,0 +1,164 @@
+:root {
+    --bg-color: #141518;
+    --font-color: #ffffff;
+    --card-color: #1e2024;
+    --outline-color: #34373a;
+    --black: black;
+    --panel-hover: #262a2e;
+    --link-hover: pink;
+  }
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Karla', sans-serif;
+    color: var(--font-color);
+  }
+
+  p {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-family: 'Pirata One', cursive;
+  }
+
+  h5 {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: var(--font-color);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+  }
+
+  a:hover {
+    color: var(--link-hover);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+  }
+
+  img {
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+
+  .main-container {
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+.myshunosun-avatar {
+    width: 64px;
+    height: 64px;
+}
+
+.nav-label-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.main-link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.panel-link {
+    border-radius: 0.75rem;
+    background-color: var(--card-color);
+    border: 1px solid var(--outline-color);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.anchor-panel {
+    text-decoration: none;
+}
+
+.panel-link:hover {
+    transform: scale(1.01);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    background-color: var(--panel-hover);
+}
+
+.panel-link-labels {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+}
+
+.panel-link-labels p {
+    margin-bottom: 0;
+}
+
+.simple-link {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: center;
+    border-radius: 0.75rem;
+    background-color: var(--card-color);
+    border: 1px solid var(--outline-color);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.simple-link:hover {
+    transform: scale(1.01);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    background-color: var(--panel-hover);
+}
+
+.code-panel {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    border-radius: 0.75rem;
+    background-color: var(--card-color);
+    border: 1px solid var(--outline-color);
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.code-area {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    border: 1px dashed var(--outline-color);
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+}
+
+.link-footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
